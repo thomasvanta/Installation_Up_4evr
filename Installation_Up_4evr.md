@@ -46,6 +46,11 @@ In System Preferences:
 
 ![Notification_Center](images/Notification_Center_disable.png)
 
+For Sierra, you can make applications open from anywhere with this command:
+```bash
+sudo spctl --master-disable
+```
+
 You can also disable the "This Application Unexpectedly Quit" and the subsequent bug report that comes with it by running this command in terminal OR renaming the Problem Reporter app:
 
 ```bash
